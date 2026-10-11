@@ -1,0 +1,10 @@
+course_id,course_name,skills,hours,objective
+C001,Excel para análisis de datos,Excel; Análisis de datos,12,"Preparar, limpiar y analizar datos mediante funciones, tablas dinámicas y gráficos."
+C002,Introducción a Power BI,Power BI; Análisis de datos,16,Crear un modelo sencillo de datos y un dashboard con indicadores.
+C003,Python básico para análisis,Python; Análisis de datos,20,"Importar, transformar y resumir datos utilizando Python y pandas."
+C004,Fundamentos de selección por competencias,Selección; Entrevistas,10,Estructurar entrevistas y documentar evidencias vinculadas a competencias.
+C005,Introducción a People Analytics,People Analytics; Análisis de datos,14,"Definir preguntas de negocio, indicadores y análisis básicos de personas."
+C006,Comunicación y colaboración,Comunicación,8,"Practicar comunicación clara, escucha activa y colaboración en equipo."
+C007,Gestión de proyectos: fundamentos,Gestión de proyectos,12,"Definir alcance, hitos, responsables y seguimiento de un proyecto."
+C008,SQL inicial para datos,SQL,14,Consultar y filtrar datos relacionales mediante consultas SQL básicas.
+C009,Diseño de planes de formación,Formación y desarrollo,10,"Traducir necesidades detectadas en objetivos, acciones y métricas de formación."
