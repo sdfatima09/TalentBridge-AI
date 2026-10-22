@@ -74,7 +74,7 @@ Funcionalidades:
 
 ### People Analytics
 
-![Análisis de competencias en People Analytics](screenshots/04-people-analytics.png)
+![Análisis de competencias en People Analytics](screenshots/04-peopleanalytics.png)
 
 > Las imágenes anteriores se mostrarán cuando los archivos correspondientes se hayan subido a la carpeta `screenshots` del repositorio.
 
