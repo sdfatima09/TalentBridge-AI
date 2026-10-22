@@ -1,120 +1,185 @@
 # 🌉 TalentBridge AI
 
-**Prototipo educativo de tecnología aplicada a Recursos Humanos, gestión del talento y People Analytics.**
+### Tecnología aplicada a Recursos Humanos, gestión del talento y People Analytics
 
-TalentBridge AI explora cómo las herramientas digitales pueden ayudar a organizar la información sobre competencias profesionales, identificar necesidades de desarrollo y analizar competencias declaradas en perfiles de demostración.
+**TalentBridge AI** es un prototipo educativo desarrollado en el marco del Máster en People Analytics y Gestión del Talento Digital de la Universidad Camilo José Cela (UCJC).
 
-El proyecto se ha desarrollado en el marco del Máster en People Analytics y Gestión del Talento Digital.
+El proyecto explora cómo la tecnología puede apoyar diferentes procesos de Recursos Humanos mediante la comparación de competencias profesionales, la identificación de necesidades formativas y el análisis agregado de competencias.
+
+🔗 **Demo online:** [Probar TalentBridge AI](https://talentbridge-ai-xnnkkbaaxmncuz5kkxs2rs.streamlit.app/)
+
+💻 **Código fuente:** [Repositorio en GitHub](https://github.com/sdfatima09/TalentBridge-AI)
+
+---
 
 ## 🎯 Objetivo del proyecto
 
-Diseñar una herramienta de apoyo a profesionales de Recursos Humanos que conecte tres procesos:
+Explorar una solución digital que conecte tres áreas de la gestión de personas:
 
-- Comparación de competencias asociadas a un puesto.
-- Identificación de oportunidades de formación y desarrollo.
-- Análisis agregado de competencias.
+- **Selección por competencias:** comparación entre los requisitos de un puesto y las competencias declaradas en perfiles de demostración.
+- **Desarrollo del talento:** identificación de competencias que se desean desarrollar y relación con cursos formativos.
+- **People Analytics:** análisis agregado de las competencias declaradas en los perfiles sintéticos.
 
-## 🚀 Funcionalidades
+El objetivo es mostrar cómo los datos y las herramientas digitales pueden ayudar a organizar información y apoyar el trabajo de los profesionales de Recursos Humanos.
+
+## 🚀 Funcionalidades principales
 
 ### 1. TalentMatch — Comparación de competencias
 
+Permite explorar la relación entre los requisitos de una oferta y las competencias declaradas en perfiles ficticios.
+
+Funcionalidades:
 - Introducción de una descripción de puesto.
 - Detección inicial de competencias conocidas.
-- Revisión y selección manual de los criterios.
-- Comparación con perfiles ficticios.
-- Visualización de coincidencias, brechas y evidencias declaradas.
-- Descarga de resultados en CSV.
+- Revisión y selección manual de competencias.
+- Comparación entre requisitos y perfiles.
+- Visualización de coincidencias, brechas y evidencias disponibles.
+- Cálculo del porcentaje de cobertura de las competencias seleccionadas.
+- Descarga de resultados en formato CSV.
 
 ### 2. SkillPath — Desarrollo del talento
 
+Permite relacionar las competencias que se desean desarrollar con un catálogo de cursos de demostración.
+
+Funcionalidades:
 - Selección de un perfil ficticio.
-- Identificación de competencias que se desean desarrollar.
-- Relación de competencias con cursos de demostración.
+- Elección de competencias para desarrollar.
+- Relación de competencias con cursos formativos.
 - Consulta de duración y objetivos de aprendizaje.
+- Identificación de competencias sin cursos asociados.
 - Descarga del itinerario formativo.
 
 ### 3. People Analytics — Análisis de competencias
 
-- Cálculo de frecuencias de competencias declaradas.
-- Visualización gráfica de resultados.
+Permite explorar la distribución de competencias declaradas en los perfiles sintéticos.
+
+Funcionalidades:
+- Cálculo de frecuencias de competencias.
+- Representación gráfica de los resultados.
 - Consulta de una tabla agregada de competencias.
 
+## 🖥️ Capturas de pantalla
+
+### Inicio
+
+![Inicio de TalentBridge AI](screenshots/01-inicio.png)
+
+### TalentMatch
+
+![Comparación de competencias en TalentMatch](screenshots/02-talentmatch.png)
+
+### SkillPath
+
+![Itinerario formativo en SkillPath](screenshots/03-skillpath.png)
+
+### People Analytics
+
+![Análisis de competencias en People Analytics](screenshots/04-people-analytics.png)
+
+> Las imágenes anteriores se mostrarán cuando los archivos correspondientes se hayan subido a la carpeta `screenshots` del repositorio.
 
 ## 🛠️ Tecnologías utilizadas
 
-- **Python**: lenguaje de programación utilizado para desarrollar la aplicación.
-- **Streamlit**: creación de la interfaz web interactiva.
-- **pandas**: tratamiento y análisis de datos.
-- **CSV**: almacenamiento y gestión de los datos de demostración.
-- **GitHub**: control de versiones y alojamiento del código fuente.
+- **Python:** lenguaje de programación.
+- **Streamlit:** desarrollo de la interfaz web interactiva.
+- **pandas:** tratamiento y análisis de datos.
+- **CSV:** almacenamiento y gestión de datos de demostración.
+- **GitHub:** alojamiento del código fuente y documentación.
+- **Streamlit Community Cloud:** publicación de la demo online.
 
 ## 📂 Estructura del proyecto
 
-- `app.py`: aplicación principal.
-- `requirements.txt`: dependencias necesarias.
-- `data/`: archivos CSV de demostración.
-- `Analisis_funcional_y_prompt_TalentBridge_AI.docx`: documentación del análisis funcional y del diseño del prototipo.
-- `README.md`: documentación e instrucciones de uso.
+```text
+TalentBridge-AI/
+├── data/
+│   └── Archivos CSV de demostración
+├── screenshots/
+│   ├── 01-inicio.png
+│   ├── 02-talentmatch.png
+│   ├── 03-skillpath.png
+│   └── 04-people-analytics.png
+├── app.py
+├── requirements.txt
+├── README.md
+└── Analisis_funcional_y_prompt_TalentBridge_AI.pdf
+```
 
 ## 💻 Instalación y ejecución local
 
-Se recomienda Python 3.10 o superior.
+Para ejecutar la aplicación en un entorno local, se recomienda disponer de Python 3.10 o superior.
 
-1. Clona el repositorio:
+**1. Clonar el repositorio**
 
-   `git clone https://github.com/sdfatima09/TalentBridge-AI.git`
+```bash
+git clone https://github.com/sdfatima09/TalentBridge-AI.git
+```
 
-2. Accede a la carpeta del proyecto:
+**2. Acceder a la carpeta del proyecto**
 
-   `cd TalentBridge-AI`
+```bash
+cd TalentBridge-AI
+```
 
-3. Crea un entorno virtual:
+**3. Crear un entorno virtual**
 
-   `python -m venv .venv`
+```bash
+python -m venv .venv
+```
 
-4. Activa el entorno virtual.
+**4. Activar el entorno virtual**
 
-   En Windows PowerShell:
+En Windows PowerShell:
 
-   `.venv\Scripts\Activate.ps1`
+```powershell
+.venv\Scripts\Activate.ps1
+```
 
-   En macOS/Linux:
+En macOS o Linux:
 
-   `source .venv/bin/activate`
+```bash
+source .venv/bin/activate
+```
 
-5. Instala las dependencias:
+**5. Instalar las dependencias**
 
-   `pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
-6. Ejecuta la aplicación:
+**6. Ejecutar la aplicación**
 
-   `streamlit run app.py`
+```bash
+streamlit run app.py
+```
 
-7. Abre en el navegador la dirección local indicada por Streamlit.
-
-## 📸 Capturas de pantalla
-
-Se incorporarán capturas de los módulos Inicio, TalentMatch, SkillPath y People Analytics para mostrar el funcionamiento y la interfaz de la aplicación.
+Streamlit indicará la dirección local desde la que se puede abrir la aplicación en el navegador.
 
 ## ⚖️ Limitaciones y uso responsable
 
-TalentBridge AI es un prototipo educativo y no un sistema validado para su uso en procesos reales de selección.
+TalentBridge AI es un prototipo educativo de apoyo a tareas de Recursos Humanos. No es un sistema validado para tomar decisiones reales de contratación.
 
-- Los datos incluidos son sintéticos.
-- La comparación se basa en reglas explícitas y competencias declaradas.
-- El porcentaje de cobertura refleja coincidencias con los criterios seleccionados; no mide el rendimiento potencial ni la idoneidad global de una persona.
-- La ausencia de una competencia en los datos no implica que la persona carezca de ella.
+- Utiliza perfiles y datos sintéticos de demostración.
+- La comparación de competencias se basa en reglas explícitas.
+- El porcentaje de cobertura mide coincidencias con los criterios seleccionados; no representa una probabilidad de rendimiento ni una valoración global de una persona.
+- La ausencia de una competencia en los datos no significa que la persona carezca de ella.
 - Los resultados deben interpretarse con criterio humano.
-- No deben cargarse datos personales reales ni utilizarse los resultados para automatizar decisiones de contratación.
+- No deben introducirse datos personales reales.
+- La herramienta no está diseñada para automatizar decisiones de contratación.
 
 ## 📌 Estado del proyecto
 
-Proyecto académico en evolución. La disponibilidad de una demo online y las pruebas de funcionamiento deberán indicarse una vez verificadas.
+Proyecto académico en evolución, con repositorio de código y demo online.
 
 ## 👩‍💻 Autora
 
-Fátima Sánchez Dorado
+**Fátima Sánchez Dorado**
 
-Máster en People Analytics y Gestión del Talento Digital
+Máster en People Analytics y Gestión del Talento Digital — Universidad Camilo José Cela (UCJC).
 
-Áreas de interés: People Analytics, HR Tech, Talent Management y desarrollo del talento.
+Áreas de interés: People Analytics, HR Tech, Talent Management, desarrollo del talento y aplicación de tecnología a Recursos Humanos.
+
+---
+
+🔗 **Demo:** https://talentbridge-ai-xnnkkbaaxmncuz5kkxs2rs.streamlit.app/
+
+💻 **GitHub:** https://github.com/sdfatima09/TalentBridge-AI
