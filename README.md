@@ -39,13 +39,14 @@ Diseñar una herramienta de apoyo a profesionales de Recursos Humanos que conect
 - Visualización gráfica de resultados.
 - Consulta de una tabla agregada de competencias.
 
-## 🛠️ Tecnologías
 
-- Python
-- Streamlit
-- pandas
-- CSV para la gestión de los datos de demostración
-- GitHub para el almacenamiento del código y la documentación
+## 🛠️ Tecnologías utilizadas
+
+- **Python**: lenguaje de programación utilizado para desarrollar la aplicación.
+- **Streamlit**: creación de la interfaz web interactiva.
+- **pandas**: tratamiento y análisis de datos.
+- **CSV**: almacenamiento y gestión de los datos de demostración.
+- **GitHub**: control de versiones y alojamiento del código fuente.
 
 ## 📂 Estructura del proyecto
 
